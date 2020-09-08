@@ -92,5 +92,9 @@
   "environment": {
     "PYTHONUNBUFFERED": "1"
   },
-  "command": "python /code/extract_FA.py"
+  "command": "python /code/extract_FA.py",
+  "author": "Franz Liem",
+  "license": "MIT",
+  "source": "https://github.com/dynage/extract-fa-gear",
+  "url": "https://github.com/dynage/extract-fa-gear"
 }
