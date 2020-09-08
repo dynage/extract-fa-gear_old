@@ -1,7 +1,7 @@
 {
   "name": "extract-fa-gear",
   "label": "extract-fa-gear",
-  "description": "",
+  "description": "extract-fa-gear",
   "version": "0.0.1_v4.rc1",
   "custom": {
     "docker-image": "dynage/extract-fa-gear:0.0.1_v4.rc1",
