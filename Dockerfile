@@ -1,6 +1,5 @@
-FROM python:3.8-buster as base
+FROM fliem/extract_fa:v4.rc1
 
-LABEL maintainer="support@flywheel.io"
 
 RUN apt-get update && \
     curl -sL https://deb.nodesource.com/setup_10.x | bash - && \

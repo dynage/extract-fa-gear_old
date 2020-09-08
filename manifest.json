@@ -1,13 +1,13 @@
 {
-  "name": "#fixme bids-app-template",
-  "label": "#fixme <Bids-App-Template>: short human-friendly name/description displayed in interface",
-  "description": "#fixme <editme Name> (<version>) longer description.",
-  "version": "#fixme 0.0.0_0.2.3",
+  "name": "extract-fa-gear",
+  "label": "extract-fa-gear",
+  "description": "",
+  "version": "0.0.1_v4.rc1",
   "custom": {
-    "docker-image": "#fixme dynage/bids-app-template:0.0.0_0.2.3",
+    "docker-image": "dynage/extract-fa-gear:0.0.1_v4.rc1",
     "gear-builder": {
       "category": "analysis",
-      "image": " #fixme dynage/bids-app-template:0.0.0_0.2.3"
+      "image": "dynage/extract-fa-gear:0.0.1_v4.rc1"
     },
     "flywheel": {
       "suite": "BIDS Apps"
@@ -92,5 +92,5 @@
   "environment": {
     "PYTHONUNBUFFERED": "1"
   },
-  "command": "python run.py"
+  "command": "python /code/extract_FA.py"
 }

@@ -26,9 +26,8 @@ from utils.results.zip_intermediate import (
     zip_intermediate_selected,
 )
 
-# fixme
-GEAR = "bids-app-template"
-REPO = "flywheel-apps"
+GEAR = "extract-fa-gear"
+REPO = "dynage"
 CONTAINER = f"{REPO}/{GEAR}]"
 
 FREESURFER_FULLPATH = "/opt/freesurfer/license.txt"
